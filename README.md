@@ -1,5 +1,3 @@
-# Flask Project README
-
 This repository contains a Flask project that implements a CRUD API for managing student information. The API allows you to create, retrieve, update, and delete student records using the Flask framework.
 
 
@@ -18,13 +16,13 @@ To set up and run the project locally, follow these steps:
 1. Clone the repository to your local machine:
 
 ```
-git clone <repository-url>
+git clone https://github.com/samir321-pixel/Flask_Framework_CRUD.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd project-root/
+cd flask_api/
 ```
 
 3. Install the required packages using pip:
@@ -43,10 +41,10 @@ The application will run on `http://127.0.0.1:5000/` by default.
 
 ## Testing
 
-The project includes unit tests for the Flask application. The test cases are located in the `tests/test_app.py` file. To run the tests, execute the following command:
+The project includes unit tests for the Flask application. The test cases are located in the `flask_api/test_app.py` file. To run the tests, execute the following command:
 
 ```
-python -m unittest discover -s tests/
+python test_app.py
 ```
 
 ## Postman Collection
@@ -61,4 +59,4 @@ This collection includes pre-configured requests for interacting with the API en
 
 This Flask project serves as a basic example of creating a RESTful API using Flask and SQLAlchemy. Feel free to modify and extend it according to your requirements.
 
-For any questions or issues, please contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or issues, please contact [saitwalsamir@gmail.com](mailto:saitwalsamir@gmail.com).
